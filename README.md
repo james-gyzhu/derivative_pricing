@@ -17,7 +17,8 @@ The main files for running the code are as following:
 1. `global_setting.m`: the file includes all the parameter definition. For example, the underlying basket features (risk-free rate, dividend yields, volatilities, spot prices, and correlations), the option features (time to maturity, callable barrier), and Monte Carlo simulation parameters (type of MC algorithm used, number of simulation paths, and number of time steps for simulation).
 
 2. `init_struct.m`: three structures (for Monte Carlo simulation, basket, and option, respectively) are declared and initialized, which includes all the global information used in the running time. One can change “mc.type” (line 48 in the file) and “eln. cp_method” (line 32 in the file) to choose the preferred MC algorithms for pricing.
-* I already set the method of Quasi Monte Carlo simulation using Brownian Bridge as default. The options can be changed as:
+
+* The method of Quasi Monte Carlo simulation using Brownian Bridge is set as default. The options can be changed as:
 ** mc_type.naive/eln_cp_method.naive:  Naïve Monte Carlo simulation
 ** mc_type.quasi /eln_cp_method.naive:  Quasi Monte Carlo simulation (high-dimensional version)
 ** mc_type.quasi_bb/eln_cp_method.naive:  Quasi Monte Carlo simulation using Brownian bridge
