@@ -5,7 +5,7 @@ This set of code is implemented to price an improved Himalaya option with barrie
 *	Naïve Monte Carlo simulation (classical version of MC)
 *	Control variant Monte Carlo simulation
 * Quasi Monte Carlo simulation (high-dimensional version)
-**	Support Sobol sampling set and Halton sampling set
+ * Support Sobol sampling set and Halton sampling set
 *	Quasi Monte Carlo simulation using Brownian bridge
 *	Stratified Monte Carlo simulation using Brownian bridge 
 *	Antithetic Monte Carlo simulation
