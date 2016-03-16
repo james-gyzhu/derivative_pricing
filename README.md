@@ -1,4 +1,5 @@
-# Financial Derivative Pricing
+Financial Derivative Pricing
+===
 
 This set of code is implemented to price an improved Himalaya option with barrier features. The pricing is conducted by multiple Monte Carlo simulation approaches including:
 
